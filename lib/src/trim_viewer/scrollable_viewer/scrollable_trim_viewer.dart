@@ -622,13 +622,7 @@ class _ScrollableTrimViewerState extends State<ScrollableTrimViewer>
                   startPos: _startPos,
                   endPos: _endPos,
                   scrubberAnimationDx: _scrubberAnimation?.value ?? 0,
-                  startCircleSize: _startCircleSize,
-                  endCircleSize: _endCircleSize,
-                  borderRadius: _borderRadius,
-                  borderWidth: widget.editorProperties.borderWidth,
                   scrubberWidth: widget.editorProperties.scrubberWidth,
-                  circlePaintColor: widget.editorProperties.circlePaintColor,
-                  borderPaintColor: widget.editorProperties.borderPaintColor,
                   scrubberPaintColor:
                       widget.editorProperties.scrubberPaintColor,
                 ),
